@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# Codecademy Jammming app (with. Spotify)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+링크 [http://muyeon-spotify.surge.sh/](http://muyeon-spotify.surge.sh/)
 
-## Available Scripts
+## 개요
 
-In the project directory, you can run:
+---
 
-### `npm start`
+리액트 학습을위해 만든 codecademy를 통해 시작한 프로젝트입니다. 이를 통해 리엑트에 대한 모든걸 알지는 못하였지만 전체적인 틀을 잡을수 있었던 프로젝트였습니다.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 사용
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+- 노래 or 가수 or 앨범 등을 검색하여 리스트를 불러옵니다.
+- 검색된 리스트목록에 마음에 드는 노래를 + 버튼을 눌러 나의 플레이리스트로 가져옵니다.
+- 나의 플레이리스트 이름을 지정하고 저장버튼을 클릭합니다.
+- Spotify 에 새로만든 플레이리스트가 추가됩니다.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 기술
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- HTML, CSS, Javascript
+- React, ReactDOM
+- surge
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 회고
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- 자유자재로 다루기엔 아직 부족한 리엑트
+- 로직오류나 오타에대한 시간낭비
+- 오류를 스스로 분석하기전에 검색부터했던점
+- Spotify API
+- Promise 활용
